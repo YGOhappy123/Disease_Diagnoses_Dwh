@@ -1,5 +1,5 @@
 english_name	vietnamese_name	symptom_severity
-abdominal_pain	Đau bụng	4
+abdominal_pain	Đau bụng dưới	4
 abnormal_menstruation	Rối loạn kinh nguyệt	6
 acidity	Chứng axit dạ dày	3
 acute_liver_failure	Suy gan cấp tính	6

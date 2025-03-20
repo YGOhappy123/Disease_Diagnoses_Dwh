@@ -174,8 +174,8 @@ A441	Cutaneous and mucocutaneous bartonellosis	Bệnh do Bartonella ở da và n
 A448	Other forms of bartonellosis	Thể khác của bệnh do Bartonella
 A449	Bartonellosis, unspecified	Bệnh do Bartonella, không đặc hiệu
 A480	Gas gangrene	Bệnh hoại thư sinh hơi
-A481	Legionnaires' disease	Bệnh do Legionnaire
-A482	Nonpneumonic Legionnaires' disease [Pontiac fever]	Bệnh Legionnaire không ở phổi [sốt Pontiac]
+A481	'Legionnaires'' disease'	Bệnh do Legionnaire
+A482	'Nonpneumonic Legionnaires'' disease [Pontiac fever]'	Bệnh Legionnaire không ở phổi [sốt Pontiac]
 A483	Toxic shock syndrome	Hội chứng sốc nhiễm độc
 A484	Brazilian purpuric fever	Sốt ban xuất huyết Brazil
 A488	Other specified bacterial diseases	Bệnh nhiễm khuẩn xác định khác
@@ -233,7 +233,7 @@ A680	Louse-borne relapsing fever	Sốt hồi quy do chấy rận
 A681	Tick-borne relapsing fever	Sốt hồi quy do ve truyền
 A689	Relapsing fever, unspecified	Sốt tái phát, không xác đinh
 A690	Necrotizing ulcerative stomatitis	Viêm loét hoại tử ở miệng
-A691	Other Vincent's infections	Nhiễm trùng do kiểu Vincent khác
+A691	'Other Vincent''s infections'	Nhiễm trùng do kiểu Vincent khác
 A698	Other specified spirochetal infections	Nhiễm xoắn khuẩn xác định khác
 A699	Spirochetal infection, unspecified	Nhiễm xoắn khuẩn, không đặc hiệu
 A710	Initial stage of trachoma	Giai đoạn đầu của mắt hột
@@ -242,7 +242,7 @@ A719	Trachoma, unspecified	Mắt hột, không đặc hiệu
 A740	Chlamydial conjunctivitis	Viêm kết mạc do chlamydia
 A749	Chlamydial infection, unspecified	Bệnh do chlamydia, không xác định
 A750	Epidemic louse-borne typhus fever due to Rickettsia prowazekii	Sốt phát ban dịch tễ (do chấy rận truyền) do Rickettsia prowazekii
-A751	Recrudescent typhus [Brill's disease]	Sốt phát ban tái phát [bệnh Brill]
+A751	'Recrudescent typhus [Brill''s disease]'	Sốt phát ban tái phát [bệnh Brill]
 A752	Typhus fever due to Rickettsia typhi	Sốt phát ban do Rickettsia typhi
 A753	Typhus fever due to Rickettsia tsutsugamushi	Sốt phát ban do Rickettsia tsutsugamushi [bệnh sốt mò]
 A759	Typhus fever, unspecified	Sốt phát ban, không đặc hiệu
@@ -293,7 +293,7 @@ A881	Epidemic vertigo	Chóng mặt gây dịch
 A888	Other specified viral infections of central nervous system	Nhiễm vi rút xác định khác của hệ thần kinh trung ương
 A90	Dengue fever	Bệnh sốt đăng gơ
 A920	Chikungunya virus disease	Bệnh do nhiễm vi rút Chikungunya
-A921	O'nyong-nyong fever	Bệnh sốt do vi rút O’ nyong nyong
+A921	'O''nyong-nyong fever'	Bệnh sốt do vi rút O’ nyong nyong
 A922	Venezuelan equine fever	Sốt ngựa Venezuela
 A924	Rift Valley fever	Sốt thung lũng Rift
 A925	Zika virus disease	Bệnh nhiễm vi rút Zika
@@ -365,6 +365,7 @@ B188	Other chronic viral hepatitis	Viêm gan vi rút mạn tính khác
 B189	Chronic viral hepatitis, unspecified	Viêm gan vi rút mạn tính, không đặc hiệu
 B190	Unspecified viral hepatitis with hepatic coma	Bệnh viêm gan vi rút không xác định kèm hôn mê gan
 B199	Unspecified viral hepatitis without hepatic coma	Bệnh viêm gan vi rút không xác định không kèm hôn mê gan
+B24	Unspecified human immunodeficiency virus [HIV] disease	Bệnh do virus gây suy giảm miễn dịch ở người [HIV] không xác định
 B250	Cytomegaloviral pneumonitis	Viêm phổi do vi rút Cytomegalo 
 B251	Cytomegaloviral hepatitis	Viêm gan do vi rút Cytomegalo 
 B252	Cytomegaloviral pancreatitis	Viêm tuỵ do vi rút Cytomegalo 
@@ -498,10 +499,10 @@ B559	Leishmaniasis, unspecified	Bệnh do leishmania, không đặc hiệu
 B560	Gambiense trypanosomiasis	Bệnh do nhiễm Trypanosoma gambiense
 B561	Rhodesiense trypanosomiasis	Bệnh do nhiễm Trypanosoma rhodesiense
 B569	African trypanosomiasis, unspecified	Bệnh do nhiễm Trypanosoma Châu Phi [bệnh ngủ Châu Phi], không xác định
-B570	Acute Chagas' disease with heart involvement	Bệnh Chagas cấp ảnh hưởng đến tim 
-B571	Acute Chagas' disease without heart involvement	Bệnh Chagas cấp không ảnh hưởng đến tim
-B572	Chagas' disease (chronic) with heart involvement	Bệnh Chagas (mạn tính) ảnh hưởng đến tim
-B575	Chagas' disease (chronic) with other organ involvement	Bệnh Chagas (mạn tính) ảnh hưởng đến cơ quan khác
+B570	'Acute Chagas'' disease with heart involvement'	Bệnh Chagas cấp ảnh hưởng đến tim 
+B571	'Acute Chagas'' disease without heart involvement'	Bệnh Chagas cấp không ảnh hưởng đến tim
+B572	'Chagas'' disease (chronic) with heart involvement'	Bệnh Chagas (mạn tính) ảnh hưởng đến tim
+B575	'Chagas'' disease (chronic) with other organ involvement'	Bệnh Chagas (mạn tính) ảnh hưởng đến cơ quan khác
 B581	Toxoplasma hepatitis	Viêm gan do toxoplasma
 B582	Toxoplasma meningoencephalitis	Viêm não màng não do toxoplasma 
 B583	Pulmonary toxoplasmosis	Bệnh do toxoplasma ở phổi
@@ -682,7 +683,7 @@ C132	Malignant neoplasm of posterior wall of hypopharynx	U ác của vách sau c
 C138	Malignant neoplasm of overlapping sites of hypopharynx	U ác với tổn thương chồng lấn của hạ họng
 C139	Malignant neoplasm of hypopharynx, unspecified	U ác của hạ họng không đặc hiệu
 C140	Malignant neoplasm of pharynx, unspecified	U ác của họng, không đặc hiệu
-C142	Malignant neoplasm of Waldeyer's ring	U ác của Vòng bạch huyết Waldeyer
+C142	'Malignant neoplasm of Waldeyer''s ring'	U ác của Vòng bạch huyết Waldeyer
 C148	Malignant neoplasm of overlapping sites of lip, oral cavity and pharynx	U ác với tổn thương chồng lấn của môi, khoang miệng và họng
 C153	Malignant neoplasm of upper third of esophagus	U ác của phần ba trên thực quản
 C154	Malignant neoplasm of middle third of esophagus	U ác của phần ba giữa thực quản
@@ -701,7 +702,7 @@ C169	Malignant neoplasm of stomach, unspecified	U ác của dạ dày không đ�
 C170	Malignant neoplasm of duodenum	U ác của tá tràng
 C171	Malignant neoplasm of jejunum	U ác của hỗng tràng
 C172	Malignant neoplasm of ileum	U ác của hồi tràng
-C173	Meckel's diverticulum, malignant	U ác của túi thừa Meckel
+C173	'Meckel''s diverticulum, malignant'	U ác của túi thừa Meckel
 C178	Malignant neoplasm of overlapping sites of small intestine	U ác với tổn thương chồng lấn của ruột non
 C179	Malignant neoplasm of small intestine, unspecified	U ác của ruột non, không đặc hiệu
 C180	Malignant neoplasm of cecum	U ác của manh tràng
@@ -779,13 +780,13 @@ C451	Mesothelioma of peritoneum	U trung biểu mô của phúc mạc
 C452	Mesothelioma of pericardium	U trung biểu mô màng ngoài tim
 C457	Mesothelioma of other sites	U trung biểu mô của các vị trí khác
 C459	Mesothelioma, unspecified	U trung biểu mô không đặc hiệu
-C460	Kaposi's sarcoma of skin	Ung thư mô liên kết Kaposi của da
-C461	Kaposi's sarcoma of soft tissue	Ung thư mô liên kết Kaposi của mô mềm
-C462	Kaposi's sarcoma of palate	Ung thư mô liên kết Kaposi của vòm khẩu cái
-C463	Kaposi's sarcoma of lymph nodes	Ung thư mô liên kết Kaposi của hạch lympho
-C464	Kaposi's sarcoma of gastrointestinal sites	Sarcoma Kaposi ở đường tiêu hóa
-C467	Kaposi's sarcoma of other sites	Ung thư mô liên kết Kaposi của các nơi khác
-C469	Kaposi's sarcoma, unspecified	Ung thư mô liên kết Kaposi không đặc hiệu
+C460	'Kaposi''s sarcoma of skin'	Ung thư mô liên kết Kaposi của da
+C461	'Kaposi''s sarcoma of soft tissue'	Ung thư mô liên kết Kaposi của mô mềm
+C462	'Kaposi''s sarcoma of palate'	Ung thư mô liên kết Kaposi của vòm khẩu cái
+C463	'Kaposi''s sarcoma of lymph nodes'	Ung thư mô liên kết Kaposi của hạch lympho
+C464	'Kaposi''s sarcoma of gastrointestinal sites'	Sarcoma Kaposi ở đường tiêu hóa
+C467	'Kaposi''s sarcoma of other sites'	Ung thư mô liên kết Kaposi của các nơi khác
+C469	'Kaposi''s sarcoma, unspecified'	Ung thư mô liên kết Kaposi không đặc hiệu
 C470	Malignant neoplasm of peripheral nerves of head, face and neck	U ác của thần kinh ngoại biên của đầu, mặt, cổ
 C473	Malignant neoplasm of peripheral nerves of thorax	U ác của thần kinh ngoại biên của lồng ngực
 C474	Malignant neoplasm of peripheral nerves of abdomen	U ác của thần kinh ngoại biên của bụng
@@ -1235,7 +1236,7 @@ D642	Secondary sideroblastic anemia due to drugs and toxins                     
 D643	Other sideroblastic anemias                                                                                                                                                                                                                                     	Các thiếu máu nguyên hồng cầu sắt khác
 D644	Congenital dyserythropoietic anemia                                                                                                                                                                                                                             	Thiếu máu rối loạn sinh sản dòng hồng cầu bẩm sinh
 D649	Anemia, unspecified                                                                                                                                                                                                                                             	Thiếu máu không đặc hiệu
-D680	Von Willebrand's disease	Bệnh Von Willebrand
+D680	'Von Willebrand''s disease'	Bệnh Von Willebrand
 D681	Hereditary factor XI deficiency	Thiếu yếu tố XI di truyền
 D682	Hereditary deficiency of other clotting factors	Thiếu các yếu tố đông máu khác do di truyền
 D684	Acquired coagulation factor deficiency	Thiếu hụt yếu tố đông máu mắc phải
@@ -1289,13 +1290,13 @@ D810	Severe combined immunodeficiency [SCID] with reticular dysgenesis	Thiếu h
 D811	Severe combined immunodeficiency [SCID] with low T- and B-cell numbers	Thiếu hụt miễn dịch kết hợp nghiêm trọng [SCID] với giảm số lượng lympho T và B
 D812	Severe combined immunodeficiency [SCID] with low or normal B-cell numbers	Thiếu hụt miễn dịch kết hợp nghiêm trọng [SCID] với số lượng lympho B thấp hoặc bình thường
 D813	Adenosine deaminase [ADA] deficiency	Thiếu hụt enzim adenosine deaminase [ADA]
-D814	Nezelof's syndrome	Hội chứng Nezelof
+D814	'Nezelof''s syndrome'	Hội chứng Nezelof
 D815	Purine nucleoside phosphorylase [PNP] deficiency	Thiếu hụt emzim purine nucleoside phosphorylase [PNP]
 D816	Major histocompatibility complex class I deficiency	Thiếu hụt phức hợp hoà hợp tổ chức lớp I (MHC I)
 D817	Major histocompatibility complex class II deficiency	Thiếu hụt phức hợp hoà hợp tổ chức lớp II (MHC II)
 D819	Combined immunodeficiency, unspecified	Suy giảm miễn dịch hỗn hợp không đặc hiệu
 D820	Wiskott-Aldrich syndrome	Hội chứng Wiskott- Aldrich
-D821	Di George's syndrome	Hội chứng Di George
+D821	'Di George''s syndrome'	Hội chứng Di George
 D822	Immunodeficiency with short-limbed stature	Suy giảm miễn dịch kèm chứng ngắn chi
 D823	Immunodeficiency following hereditary defective response to Epstein-Barr virus	Suy giảm miễn dịch sau đáp ứng bị khuyết thiếu với vi rút Epstein- Barr mang tính di truyền
 D824	Hyperimmunoglobulin E [IgE] syndrome	Hội chứng tăng immunoglobulin E [IgE]
@@ -1341,6 +1342,7 @@ E041	Nontoxic single thyroid nodule	Bướu giáp đơn nhân không độc
 E042	Nontoxic multinodular goiter	Bướu giáp đa nhân không độc
 E048	Other specified nontoxic goiter	Bướu giáp không độc đặc hiệu khác
 E049	Nontoxic goiter, unspecified	Bướu giáp không độc, không đặc hiệu
+E059	Thyrotoxicosis, unspecified	Nhiễm độc giáp, không đặc hiệu
 E060	Acute thyroiditis	Viêm giáp cấp
 E061	Subacute thyroiditis	Viêm giáp cấp
 E062	Chronic thyroiditis with transient thyrotoxicosis	Viêm giáp mạn với nhiễm độc giáp thoáng qua
@@ -1361,6 +1363,7 @@ E118	Type 2 diabetes mellitus with unspecified complications                    
 E119	Type 2 diabetes mellitus without complications                                                                                                                                                                                                                  	Bệnh đái tháo đường type 2: chưa có biến chứng
 E138	Other specified diabetes mellitus with unspecified complications                                                                                                                                                                                                	Bệnh đái tháo đường xác định khác: có biến chứng không xác định
 E139	Other specified diabetes mellitus without complications                                                                                                                                                                                                         	Bệnh đái tháo đường xác định khác: chưa có biến chứng
+E149	Unspecified diabetes mellitus without complications	Đái tháo đường không đặc hiệu: chưa có biến chứng
 E160	Drug-induced hypoglycemia without coma	Hạ đường máu do thuốc, không hôn mê
 E161	Other hypoglycemia	Hạ đường máu khác
 E162	Hypoglycemia, unspecified	Hạ đường máu không đặc hiệu
@@ -1389,13 +1392,13 @@ E232	Diabetes insipidus	Đái tháo nhạt
 E233	Hypothalamic dysfunction, not elsewhere classified	Rối loạn chức năng vùng dưới đồi, không phân loại nơi khác
 E236	Other disorders of pituitary gland	Rối loạn khác của tuyến yên
 E237	Disorder of pituitary gland, unspecified	Rối loạn tuyến yên, không đặc hiệu
-E240	Pituitary-dependent Cushing's disease	Bệnh Cushing phụ thuộc tuyến yên
-E241	Nelson's syndrome	Hội chứng Nelson
-E242	Drug-induced Cushing's syndrome	Hội chứng Cushing do thuốc
+E240	'Pituitary-dependent Cushing''s disease'	Bệnh Cushing phụ thuộc tuyến yên
+E241	'Nelson''s syndrome'	Hội chứng Nelson
+E242	'Drug-induced Cushing''s syndrome'	Hội chứng Cushing do thuốc
 E243	Ectopic ACTH syndrome	Hội chứng ACTH lạc chỗ
-E244	Alcohol-induced pseudo-Cushing's syndrome	Hội chứng Cushing giả do rượu
-E248	Other Cushing's syndrome	Hội chứng Cushing khác
-E249	Cushing's syndrome, unspecified	Hội chứng Cushing, không đặc hiệu
+E244	'Alcohol-induced pseudo-Cushing''s syndrome'	Hội chứng Cushing giả do rượu
+E248	'Other Cushing''s syndrome'	Hội chứng Cushing khác
+E249	'Cushing''s syndrome, unspecified'	Hội chứng Cushing, không đặc hiệu
 E250	Congenital adrenogenital disorders associated with enzyme deficiency	Rối loạn thượng thận- sinh dục bẩm sinh kết hợp với thiếu enzym
 E258	Other adrenogenital disorders	Rối loạn khác của thượng thận- sinh dục
 E259	Adrenogenital disorder, unspecified	Rối loạn thượng thận- sinh dục, không đặc hiệu
@@ -1440,7 +1443,7 @@ E368	Other intraoperative complications of endocrine system	Các biến chứng 
 E440	Moderate protein-calorie malnutrition	Suy dinh dưỡng protein-calo vừa phải
 E441	Mild protein-calorie malnutrition	Suy dinh dưỡng protein-calo nhẹ
 E500	Vitamin A deficiency with conjunctival xerosis	Khô kết mạc do thiếu vitamin A
-E501	Vitamin A deficiency with Bitot's spot and conjunctival xerosis	Vết Bitot và khô kết mạc do thiếu vitamin A
+E501	'Vitamin A deficiency with Bitot''s spot and conjunctival xerosis'	Vết Bitot và khô kết mạc do thiếu vitamin A
 E502	Vitamin A deficiency with corneal xerosis	Khô giác mạc do thiếu vitamin A
 E503	Vitamin A deficiency with corneal ulceration and xerosis	Loét và khô giác mạc do thiếu vitamin A
 E504	Vitamin A deficiency with keratomalacia	Nhuyễn giác mạc do thiếu vitamin A
@@ -1449,7 +1452,7 @@ E506	Vitamin A deficiency with xerophthalmic scars of cornea	Khô giác mạc c�
 E507	Other ocular manifestations of vitamin A deficiency	Biểu hiện khác ở mắt do thiếu vitamin A
 E508	Other manifestations of vitamin A deficiency	Biểu hiện khác của thiếu vitamin A
 E509	Vitamin A deficiency, unspecified	Thiếu vitamin A, không đặc hiệu
-E512	Wernicke's encephalopathy	Bệnh lý não Wernicke
+E512	'Wernicke''s encephalopathy'	Bệnh lý não Wernicke
 E518	Other manifestations of thiamine deficiency	Biểu hiện khác của thiếu thiamine
 E519	Thiamine deficiency, unspecified	Thiếu thiamine, không đặc hiệu
 E530	Riboflavin deficiency	Thiếu riboflavin
@@ -1712,9 +1715,9 @@ F810	Specific reading disorder	Rối loạn đặc hiệu về đọc
 F812	Mathematics disorder	Rối loạn đặc hiệu về kỹ năng tính toán
 F819	Developmental disorder of scholastic skills, unspecified	Rối loạn phát triển của kỹ năng ở trường, không biệt định
 F840	Autistic disorder	Tự kỷ tuổi ấu thơ
-F842	Rett's syndrome	Hội chứng Rett
+F842	'Rett''s syndrome'	Hội chứng Rett
 F843	Other childhood disintegrative disorder	Rối loạn phân rã khác của trẻ em
-F845	Asperger's syndrome	Hội chứng Asperger
+F845	'Asperger''s syndrome'	Hội chứng Asperger
 F848	Other pervasive developmental disorders	Rối loạn lan toả khác của sự phát triển
 F849	Pervasive developmental disorder, unspecified	Rối loạn phát triển lan toả không biệt định
 F900	Attention-deficit hyperactivity disorder, predominantly inattentive type	Rối loạn của hoạt động và chú ý
@@ -1738,7 +1741,7 @@ F948	Other childhood disorders of social functioning	Rối loạn khác ở tr�
 F949	Childhood disorder of social functioning, unspecified	Rối loạn hoạt động xã hội ở trẻ em không biệt định
 F950	Transient tic disorder	Rối loạn Tic nhất thời
 F951	Chronic motor or vocal tic disorder	Rối loạn Tic vận động hoặc lời nói mạn tính
-F952	Tourette's disorder	Rối loạn kết hợp Tic lời nói với Tic vận động nhiều loại [Hội chứng Tourette]
+F952	'Tourette''s disorder'	Rối loạn kết hợp Tic lời nói với Tic vận động nhiều loại [Hội chứng Tourette]
 F958	Other tic disorders	Rối loạn Tic khác
 F959	Tic disorder, unspecified	Rối loạn Tic, không biệt định
 F980	Enuresis not due to a substance or known physiological condition	Đái dầm không thực tổn
@@ -1810,10 +1813,10 @@ G253	Myoclonus	Giật cơ
 G254	Drug-induced chorea	Múa giật do thuốc
 G255	Other chorea	Múa giật khác
 G259	Extrapyramidal and movement disorder, unspecified	Hội chứng ngoại tháp và rối loạn vận động không đặc hiệu
-G300	Alzheimer's disease with early onset	Bệnh Alzheimer khởi phát sớm
-G301	Alzheimer's disease with late onset	Bệnh Alzheimer khởi phát muộn
-G308	Other Alzheimer's disease	Bệnh Alzheimer khác
-G309	Alzheimer's disease, unspecified	Bệnh Alzheimer không đặc hiệu
+G300	'Alzheimer''s disease with early onset'	Bệnh Alzheimer khởi phát sớm
+G301	'Alzheimer''s disease with late onset'	Bệnh Alzheimer khởi phát muộn
+G308	'Other Alzheimer''s disease'	Bệnh Alzheimer khác
+G309	'Alzheimer''s disease, unspecified'	Bệnh Alzheimer không đặc hiệu
 G311	Senile degeneration of brain, not elsewhere classified	Thoái hoá não tuổi già, không phân loại nơi khác
 G312	Degeneration of nervous system due to alcohol	Thoái hoá hệ thần kinh do rượu
 G319	Degenerative disease of nervous system, unspecified	Thoái hoá hệ thần kinh do rượu
@@ -1830,6 +1833,7 @@ G374	Subacute necrotizing myelitis of central nervous system	Viêm tuỷ hoại 
 G375	Concentric sclerosis [Balo] of central nervous system	Xơ cứng đồng tâm [Bálo]
 G378	Other specified demyelinating diseases of central nervous system	Bệnh Thoái hoá myelin xác định khác của hệ thần kinh trung ương
 G379	Demyelinating disease of central nervous system, unspecified	Bệnh Thoái hoá myelin của hệ thần kinh trung ương, không đặc hiệu
+G439	Migraine, unspecified	Bệnh đau nửa đầu [migraine], không đặc hiệu
 G441	Vascular headache, not elsewhere classified  	Đau đầu do mạch máu, không phân loại nơi khác
 G450	Vertebro-basilar artery syndrome	Đau đầu do mạch máu, không phân loại nơi khác
 G451	Carotid artery syndrome (hemispheric)	Hội chứng động mạch cảnh (bán cầu não)
@@ -1853,9 +1857,9 @@ G500	Trigeminal neuralgia	Đau thần kinh tam thoa
 G501	Atypical facial pain	Đau mặt không điển hình
 G508	Other disorders of trigeminal nerve	Bệnh khác của thần kinh tam thoa
 G509	Disorder of trigeminal nerve, unspecified	Bệnh dây kinh tam thoa, không phân loại nơi khác
-G510	Bell's palsy	Liệt Bell
+G510	'Bell''s palsy'	Liệt Bell
 G511	Geniculate ganglionitis	Đau dây thần kinh thể gối
-G512	Melkersson's syndrome	Hội chứng Melkersson
+G512	'Melkersson''s syndrome'	Hội chứng Melkersson
 G513	Clonic hemifacial spasm	Co thắt và giật nửa mặt
 G514	Facial myokymia	Máy cơ mặt
 G518	Other disorders of facial nerve	Bệnh khác của thần kinh mặt
@@ -1882,7 +1886,7 @@ G587	Mononeuritis multiplex	Viêm đơn dây thần kinh nhiều ổ
 G588	Other specified mononeuropathies	Bệnh đơn dây thần kinh xác định khác
 G589	Mononeuropathy, unspecified	Bệnh đơn dây thần kinh, không đặc hiệu
 G600	Hereditary motor and sensory neuropathy	Bệnh dây thần kinh cảm giác và vận động di truyền
-G601	Refsum's disease	Bệnh Refsum
+G601	'Refsum''s disease'	Bệnh Refsum
 G602	Neuropathy in association with hereditary ataxia	Bệnh dây thần kinh kết hợp với thất điều di truyền
 G603	Idiopathic progressive neuropathy	Bệnh dây thần kinh tiến triển vô căn
 G608	Other hereditary and idiopathic neuropathies	Bệnh dây thần kinh nguyên phát và di truyền khác
@@ -1928,7 +1932,7 @@ G890	Central pain syndrome	Hội chứng đau trung ương
 G893	Neoplasm related pain (acute) (chronic)	Đau liên quan đến khối u (cấp tính) (mãn tính)
 G894	Chronic pain syndrome	Hội chứng đau mãn tính
 G901	Familial dysautonomia [Riley-Day]	Rối loạn thần kinh tự động gia đình [Riley- Day]
-G902	Horner's syndrome	Hội chứng Horner
+G902	'Horner''s syndrome'	Hội chứng Horner
 G903	Multi-system degeneration of the autonomic nervous system	Thoái hóa đa hệ thống của hệ thần kinh tự chủ
 G904	Autonomic dysreflexia	Rối loạn phản xạ thần kinh tự động
 G908	Other disorders of autonomic nervous system	Bệnh khác của hệ thần kinh tự chủ
@@ -1950,7 +1954,7 @@ G932	Benign intracranial hypertension	Tăng áp lực trong sọ lành tính
 G933	Postviral fatigue syndrome	Hội chứng mệt mỏi sau nhiễm vi rút
 G935	Compression of brain	Chèn ép não
 G936	Cerebral edema	Phù não
-G937	Reye's syndrome	Hội chứng Reye
+G937	'Reye''s syndrome'	Hội chứng Reye
 G939	Disorder of brain, unspecified	Rối loạn ở não, không đặc hiệu
 G950	Syringomyelia and syringobulbia	Bệnh rỗng tuỷ sống và rỗng hành não
 G959	Disease of spinal cord, unspecified	Bệnh của tuỷ, không đặc hiệu
@@ -2019,6 +2023,7 @@ H671	Otitis media in diseases classified elsewhere, right ear	Viêm tai giữa t
 H672	Otitis media in diseases classified elsewhere, left ear	Viêm tai giữa trong các bệnh được phân loại ở nơi khác, tai trái
 H673	Otitis media in diseases classified elsewhere, bilateral	Viêm tai giữa trong các bệnh được phân loại ở nơi khác, hai bên
 H679	Otitis media in diseases classified elsewhere, unspecified ear	Viêm tai giữa trong các bệnh được phân loại ở nơi khác, tai không xác định
+H811	Benign paroxysmal vertigo	Chóng mặt kịch phát lành tính
 H821	Vertiginous syndromes in diseases classified elsewhere, right ear	Hội chứng chóng mặt trong các bệnh được phân loại ở nơi khác, tai phải
 H822	Vertiginous syndromes in diseases classified elsewhere, left ear	Hội chứng chóng mặt trong các bệnh được phân loại ở nơi khác, tai trái
 H823	Vertiginous syndromes in diseases classified elsewhere, bilateral	Hội chứng chóng mặt trong các bệnh được phân loại ở nơi khác, hai bên
@@ -2062,6 +2067,7 @@ I090	Rheumatic myocarditis	Viêm cơ tim do thấp
 I091	Rheumatic diseases of endocardium, valve unspecified	Bệnh nội tâm mạc do thấp, có tổn thương van không đặc hiệu
 I092	Chronic rheumatic pericarditis	Viêm màng ngoài tim do thấp mạn tính
 I099	Rheumatic heart disease, unspecified	Bệnh tim do thấp, không đặc hiệu
+I10	Essential (primary) hypertension	Tăng huyết áp vô căn (nguyên phát)
 I110	Hypertensive heart disease with heart failure	Bệnh tim do tăng huyết áp, có suy tim (sung huyết)
 I119	Hypertensive heart disease without heart failure	Bệnh tim do tăng huyết áp, không suy tim (sung huyết)
 I120	Hypertensive chronic kidney disease with stage 5 chronic kidney disease or end stage renal disease                                                                                                                                                              	Bệnh thận do tăng huyết áp, có suy thận
@@ -2101,7 +2107,7 @@ I236	Thrombosis of atrium, auricular appendage, and ventricle as current complic
 I237	Postinfarction angina	Đau thắt ngực sau nhồi máu cơ tim
 I238	Other current complications following acute myocardial infarction	Biến chứng khác xảy ra sau nhồi máu cơ tim cấp
 I240	Acute coronary thrombosis not resulting in myocardial infarction	Huyết khối mạch vành không gây nhồi máu cơ tim
-I241	Dressler's syndrome	Hội chứng Dressler
+I241	'Dressler''s syndrome'	Hội chứng Dressler
 I248	Other forms of acute ischemic heart disease	Dạng khác của bệnh tim thiếu máu cục bộ cấp
 I249	Acute ischemic heart disease, unspecified	Bệnh tim do thiếu máu cục bộ cấp, không đặc hiệu
 I252	Old myocardial infarction	Nhồi máu cơ tim cũ
@@ -2263,7 +2269,7 @@ I725	Aneurysm of other precerebral arteries	Phình và tách động mạch nề
 I726	Aneurysm of vertebral artery	Phình và tách động mạch đốt sống
 I728	Aneurysm of other specified arteries	Phình và tách động mạch xác định khác
 I729	Aneurysm of unspecified site	Phình và tách động mạch, vị trí không xác định
-I731	Thromboangiitis obliterans [Buerger's disease]	Viêm tắc mạch huyết khối [Buerger]
+I731	'Thromboangiitis obliterans [Buerger''s disease]'	Viêm tắc mạch huyết khối [Buerger]
 I739	Peripheral vascular disease, unspecified	Bệnh mạch máu ngoại biên, không đặc hiệu
 I742	Embolism and thrombosis of arteries of the upper extremities	Thuyên tắc và huyết khối động mạch chi trên
 I743	Embolism and thrombosis of arteries of the lower extremities	Thuyên tắc và huyết khối động mạch chi dưới
@@ -2292,6 +2298,7 @@ I809	Phlebitis and thrombophlebitis of unspecified site	Viêm tĩnh mạch và v
 I820	Budd-Chiari syndrome	Hội chứng Budd- Chiari
 I821	Thrombophlebitis migrans	Viêm tắc tĩnh mạch tái phát (migrans)
 I823	Embolism and thrombosis of renal vein	Thuyên tắc và huyết khối tĩnh mạch thận
+I839	Varicose veins of lower extremities without ulcer or inflammation	Tĩnh mạch giãn ở chi dưới không có loét hoặc viêm
 I860	Sublingual varices	Giãn tĩnh mạch dưới lưỡi
 I861	Scrotal varices	Túi giãn tĩnh mạch bìu
 I862	Pelvic varices	Giãn tĩnh mạch chậu
@@ -2320,6 +2327,7 @@ I972	Postmastectomy lymphedema syndrome	Hội chứng phù mạch bạch huyết
 I973	Postprocedural hypertension	Tăng huyết áp sau thủ thuật
 I998	Other disorder of circulatory system	Rối loạn khác của hệ tuần hoàn
 I999	Unspecified disorder of circulatory system	Rối loạn không xác định của hệ tuần hoàn
+J00	Acute nasopharyngitis [common cold]	Viêm mũi họng cấp [cảm thường]
 J020	Streptococcal pharyngitis	Viêm họng do liên cầu
 J028	Acute pharyngitis due to other specified organisms	Viêm họng cấp do các vi sinh vật xác định khác
 J029	Acute pharyngitis, unspecified	Viêm họng cấp, không đặc hiệu
@@ -2414,7 +2422,7 @@ J399	Disease of upper respiratory tract, unspecified	Bệnh của đường hô 
 J410	Simple chronic bronchitis	Viêm phế quản mạn tính đơn thuần
 J411	Mucopurulent chronic bronchitis	Viêm phế quản mạn tính nhầy mủ
 J418	Mixed simple and mucopurulent chronic bronchitis	Viêm phế quản mạn tính hỗn hợp (đơn thuần và nhầy mủ)
-J430	Unilateral pulmonary emphysema [MacLeod's syndrome]	Hội chứng MacLeod
+J430	'Unilateral pulmonary emphysema [MacLeod''s syndrome]'	Hội chứng MacLeod
 J431	Panlobular emphysema	Khí phế thũng toàn tiểu thuỳ
 J432	Centrilobular emphysema	Khí phế thũng toàn tiểu thuỳ
 J438	Other emphysema	Khí phế thũng khác
@@ -2422,6 +2430,7 @@ J439	Emphysema, unspecified	Khí phế thũng, không đặc hiệu
 J440	Chronic obstructive pulmonary disease with (acute) lower respiratory infection	Bệnh phổi tắc nghẽn mạn tính đợt cấp do bội nhiễm
 J441	Chronic obstructive pulmonary disease with (acute) exacerbation	Bệnh phổi tắc nghẽn mạn tính đợt cấp, không đặc hiệu
 J449	Chronic obstructive pulmonary disease, unspecified	Bệnh phổi tắc nghẽn mạn tính, không xác định
+J459	Other and unspecified asthma	Hen suyễn khác và không xác định
 J470	Bronchiectasis with acute lower respiratory infection	Giãn phế quản với nhiễm trùng đường hô hấp dưới cấp tính
 J471	Bronchiectasis with (acute) exacerbation	Giãn phế quản với đợt cấp (cấp tính)
 J479	Bronchiectasis, uncomplicated	Giãn phế quản, không biến chứng
@@ -2438,16 +2447,16 @@ J634	Siderosis	Bệnh xơ phổi do sắt
 J635	Stannosis	Bệnh xơ phổi do thiếc
 J636	Pneumoconiosis due to other specified inorganic dusts	Bệnh bụi phổi do bụi vô cơ được xác định khác
 J660	Byssinosis	Bụi phổi bông
-J661	Flax-dressers' disease	Bệnh Flax- Dresser
+J661	'Flax-dressers'' disease'	Bệnh Flax- Dresser
 J662	Cannabinosis	Bệnh Flax- Dresser
 J668	Airway disease due to other specific organic dusts	Bệnh đường dẫn bụi khí do bụi hữu cơ đặc biệt khác
-J670	Farmer's lung	Bệnh phổi của người nông dân
+J670	'Farmer''s lung'	Bệnh phổi của người nông dân
 J671	Bagassosis	Bệnh phổi do bã mía
-J672	Bird fancier's lung	Bệnh phổi ở người nuôi chim
+J672	'Bird fancier''s lung'	Bệnh phổi ở người nuôi chim
 J673	Suberosis	Bệnh phổi do xơ cây bần
-J674	Maltworker's lung	Bệnh phổi của công nhân tiếp xúc với mạch nha bị mốc
-J675	Mushroom-worker's lung	Bệnh phổi của công nhân trồng nấm
-J676	Maple-bark-stripper's lung	Bệnh phổi của công nhân bóc vỏ cây thích
+J674	'Maltworker''s lung'	Bệnh phổi của công nhân tiếp xúc với mạch nha bị mốc
+J675	'Mushroom-worker''s lung'	Bệnh phổi của công nhân trồng nấm
+J676	'Maple-bark-stripper''s lung'	Bệnh phổi của công nhân bóc vỏ cây thích
 J677	Air conditioner and humidifier lung	Bệnh phổi do máy làm ẩm và máy điều hoà không khí
 J678	Hypersensitivity pneumonitis due to other organic dusts	Viêm phổi tăng cảm do bụi hữu cơ khác
 J679	Hypersensitivity pneumonitis due to unspecified organic dust	Viêm phổi tăng cảm do bụi hữu cơ không phân loại
@@ -2743,6 +2752,7 @@ K682	Retroperitoneal fibrosis	Xơ hóa sau phúc mạc
 K683	Retroperitoneal hematoma	Tụ máu sau phúc mạc
 K689	Other disorders of retroperitoneum	Các rối loạn khác của phúc mạc sau
 K700	Alcoholic fatty liver	Gan nhiễm mỡ do rượu
+K701	Alcoholic hepatitis	Viêm gan do rượu
 K702	Alcoholic fibrosis and sclerosis of liver	Bệnh xơ hoá gan do rượu
 K709	Alcoholic liver disease, unspecified	Bệnh gan do rượu, không đặc hiệu
 K710	Toxic liver disease with cholestasis	Bệnh gan nhiễm độc, có ứ mật
@@ -2825,6 +2835,7 @@ K920	Hematemesis	Nôn ra máu
 K921	Melena	Đi ngoài phân đen
 K922	Gastrointestinal hemorrhage, unspecified	Xuất huyết tiêu hoá, không đặc hiệu
 K929	Disease of digestive system, unspecified	Bệnh hệ tiêu hoá, không đặc hiệu
+L010	Impetigo [any organism] [any site]	Chốc [bất kỳ sinh vật nào] [cơ quan nào] [bất kỳ vị trí nào]
 L011	Impetiginization of other dermatoses	Chốc hoá của các bệnh da khác
 L040	Acute lymphadenitis of face, head and neck	Viêm hạch bạch huyết cấp ở mặt, đầu và cổ
 L041	Acute lymphadenitis of trunk	Viêm bạch mạch huyết cấp ở thân
@@ -2855,7 +2866,7 @@ L130	Dermatitis herpetiformis	Viêm da dạng herpes
 L131	Subcorneal pustular dermatitis	Viêm da mụn mủ dưới lớp sừng
 L138	Other specified bullous disorders	 Các bệnh lý bọng nước đặc hiệu khác
 L139	Bullous disorder, unspecified	ác bệnh da bọng nước không đặc hiệu
-L200	Besnier's prurigo	Sẩn ngứa Besnier
+L200	'Besnier''s prurigo'	Sẩn ngứa Besnier
 L209	Atopic dermatitis, unspecified	Viêm da cơ địa, không đặc hiệu
 L210	Seborrhea capitis	Viêm da tiết bã nhờn
 L211	Seborrheic infantile dermatitis	Viêm da dầu ở trẻ em
@@ -2997,7 +3008,7 @@ L600	Ingrowing nail	Móng chọc thịt
 L601	Onycholysis	Móng tách
 L602	Onychogryphosis	Móng quặp
 L603	Nail dystrophy	Loạn dưỡng móng
-L604	Beau's lines	Móng rãnh Beau
+L604	'Beau''s lines'	Móng rãnh Beau
 L605	Yellow nail syndrome	Hội chứng vàng móng
 L608	Other nail disorders	Các bệnh khác của móng
 L609	Nail disorder, unspecified	Bệnh móng khác, không đặc hiệu
@@ -3113,7 +3124,7 @@ L940	Localized scleroderma [morphea]	Xơ cứng bì khu trú [dạng mảng]
 L941	Linear scleroderma	Xơ cứng bì dạng dải
 L942	Calcinosis cutis	Lắng đọng Calci ở da
 L943	Sclerodactyly	Xơ cứng ngón
-L944	Gottron's papules	Sẩn Gottron
+L944	'Gottron''s papules'	Sẩn Gottron
 L945	Poikiloderma vasculare atrophicans	Bệnh teo da dạng mạng lưới giãn mạch
 L946	Ainhum	Bệnh Ainhum
 L948	Other specified localized connective tissue disorders	Các bệnh tổ chức liên kết khu trú đặc hiệu khác
@@ -3138,7 +3149,7 @@ M042	Cryopyrin-associated periodic syndromes	Hội chứng chu kỳ liên quan �
 M048	Other autoinflammatory syndromes	Hội chứng tự viêm khác
 M049	Autoinflammatory syndrome, unspecified	Hội chứng tự viêm, không xác định
 M059	Rheumatoid arthritis with rheumatoid factor, unspecified	Viêm khớp dạng thấp có yếu tố dạng thấp, không xác định
-M061	Adult-onset Still's disease	Bệnh Still khởi phát ở người lớn
+M061	'Adult-onset Still''s disease'	Bệnh Still khởi phát ở người lớn
 M064	Inflammatory polyarthropathy	Viêm đa khớp dạng thấp
 M069	Rheumatoid arthritis, unspecified	Viêm khớp dạng thấp, không xác định
 M081	Juvenile ankylosing spondylitis	Viêm cột sống dính khớp ở trẻ em
@@ -3147,9 +3158,10 @@ M109	Gout, unspecified	Gút, không xác định
 M119	Crystal arthropathy, unspecified	Bệnh lý khớp do tinh thể, không xác định
 M129	Arthropathy, unspecified	Bệnh lý khớp, không xác định
 M130	Polyarthritis, unspecified	Viêm đa khớp, không xác định
+M139	Arthritis, unspecified	Viêm khớp không đặc hiệu
 M150	Primary generalized (osteo)arthritis	Viêm khớp (xương) toàn thân nguyên phát
-M151	Heberden's nodes (with arthropathy)	Nốt Heberden (có bệnh lý khớp)
-M152	Bouchard's nodes (with arthropathy)	Nốt ​​Bouchard (có bệnh lý khớp)
+M151	'Heberden''s nodes (with arthropathy)'	Nốt Heberden (có bệnh lý khớp)
+M152	'Bouchard''s nodes (with arthropathy)'	Nốt ​​Bouchard (có bệnh lý khớp)
 M153	Secondary multiple arthritis	Viêm khớp nhiều khớp thứ phát
 M154	Erosive (osteo)arthritis	Viêm (xương) khớp ăn mòn
 M158	Other polyosteoarthritis	Viêm đa khớp xương khác
@@ -3169,6 +3181,7 @@ M180	Bilateral primary osteoarthritis of first carpometacarpal joints	Viêm xư�
 M182	Bilateral post-traumatic osteoarthritis of first carpometacarpal joints	Viêm xương khớp sau chấn thương hai bên của khớp cổ tay - bàn tay thứ nhất
 M184	Other bilateral secondary osteoarthritis of first carpometacarpal joints	Viêm xương khớp thứ phát hai bên khác của khớp cổ tay - bàn tay thứ nhất
 M189	Osteoarthritis of first carpometacarpal joint, unspecified	Viêm xương khớp của khớp cổ tay - bàn tay thứ nhất, không xác định
+M199	Arthrosis, unspecified	Thoái hoá khớp không đặc hiệu
 M247	Protrusio acetabuli	Protrusio acetabuli
 M249	Joint derangement, unspecified	Rối loạn khớp, không xác định
 M259	Joint disorder, unspecified	Rối loạn khớp, không xác định
@@ -3202,7 +3215,7 @@ M341	CR(E)ST syndrome	Hội chứng xơ cứng bì hạn chế (CREST)
 M342	Systemic sclerosis induced by drug and chemical	Xơ cứng bì do thuốc
 M349	Systemic sclerosis, unspecified	Xơ cứng bì toàn thể, không đặc hiệu
 M351	Other overlap syndromes	Các hội chứng trùng lắp khác
-M352	Behcet's disease	Bệnh Behcet
+M352	'Behcet''s disease'	Bệnh Behcet
 M353	Polymyalgia rheumatica	Bệnh đau cơ dạng thấp
 M354	Diffuse (eosinophilic) fasciitis	Viêm cân mạc lan toả (tăng bạch cầu ái toan)
 M355	Multifocal fibrosclerosis	Xơ cứng nhiều ổ
@@ -3295,7 +3308,7 @@ M899	Disorder of bone, unspecified	Rối loạn xương, không xác định
 M910	Juvenile osteochondrosis of pelvis	Viêm xương sụn ở trẻ em xương chậu
 M928	Other specified juvenile osteochondrosis	Bệnh nhuyễn xương ở trẻ em khác được xác định
 M929	Juvenile osteochondrosis, unspecified	Viêm xương sụn ở trẻ em, không xác định
-M931	Kienbock's disease of adults	Bệnh Kienbock ở người lớn
+M931	'Kienbock''s disease of adults'	Bệnh Kienbock ở người lớn
 M940	Chondrocostal junction syndrome [Tietze]	Hội chứng nối sụn sườn [Tietze]
 M941	Relapsing polychondritis	Viêm đa sụn tái phát
 M949	Disorder of cartilage, unspecified	Rối loạn sụn, không xác định
@@ -3562,10 +3575,10 @@ N735	Female pelvic peritonitis, unspecified	Viêm phúc mạc vùng chậu nữ,
 N736	Female pelvic peritoneal adhesions (postinfective)	Dính phúc mạc vùng chậu nữ
 N738	Other specified female pelvic inflammatory diseases	Các bệnh viêm vùng chậu nữ xác định khác
 N739	Female pelvic inflammatory disease, unspecified	Viêm vùng chậu nữ, không đặc hiệu
-N750	Cyst of Bartholin's gland	Nang tuyến Bartholin
-N751	Abscess of Bartholin's gland	Áp xe tuyến Bartholin
-N758	Other diseases of Bartholin's gland	Các bệnh khác của tuyến Bartholin
-N759	Disease of Bartholin's gland, unspecified	Bệnh tuyến Bartholin, không đặc hiệu
+N750	'Cyst of Bartholin''s gland'	Nang tuyến Bartholin
+N751	'Abscess of Bartholin''s gland'	Áp xe tuyến Bartholin
+N758	'Other diseases of Bartholin''s gland'	Các bệnh khác của tuyến Bartholin
+N759	'Disease of Bartholin''s gland, unspecified'	Bệnh tuyến Bartholin, không đặc hiệu
 N760	Acute vaginitis	Viêm âm đạo cấp
 N761	Subacute and chronic vaginitis	Viêm âm đạo bán cấp và mạn
 N762	Acute vulvitis	Viêm âm hộ cấp
@@ -3963,8 +3976,8 @@ P133	Birth injury to other long bones	Chấn thương các xương dài khác kh
 P134	Fracture of clavicle due to birth injury	Gãy xương đòn do chấn thương khi sinh
 P138	Birth injuries to other parts of skeleton	 Các chấn thương xương khác khi sinh
 P139	Birth injury to skeleton, unspecified	Chấn thương xương khi sinh, không xác định
-P140	Erb's paralysis due to birth injury	Liệt Erb do chấn thương khi sinh
-P141	Klumpke's paralysis due to birth injury	Liệt Klumpke do chấn thương khi sinh
+P140	'Erb''s paralysis due to birth injury'	Liệt Erb do chấn thương khi sinh
+P141	'Klumpke''s paralysis due to birth injury'	Liệt Klumpke do chấn thương khi sinh
 P142	Phrenic nerve paralysis due to birth injury	Liệt dây thần kinh hoành do chấn thương khi sinh
 P143	Other brachial plexus birth injuries	Chấn thương khác của đám rối cánh tay khi sinh
 P148	Birth injuries to other parts of peripheral nervous system	Chấn thương các phần khác của hệ thần kinh ngoại vi khi sinh
@@ -4055,7 +4068,7 @@ P501	Newborn affected by intrauterine (fetal) blood loss from ruptured cord	Mấ
 P502	Newborn affected by intrauterine (fetal) blood loss from placenta	Mất máu thai từ rau
 P503	Newborn affected by hemorrhage into co-twin	Chảy máu giữa hai thai sinh đôi (truyền máu thai sang thai)
 P504	Newborn affected by hemorrhage into maternal circulation	Chảy máu vào tuần hoàn người mẹ
-P505	Newborn affected by intrauterine (fetal) blood loss from cut end of co-twin's cord	Mất máu thai do cắt vào dây rốn chung của thai sinh đôi
+P505	'Newborn affected by intrauterine (fetal) blood loss from cut end of co-twin''s cord'	Mất máu thai do cắt vào dây rốn chung của thai sinh đôi
 P508	Newborn affected by other intrauterine (fetal) blood loss	Mất máu thai khác
 P509	Newborn affected by intrauterine (fetal) blood loss, unspecified	Mất máu thai không xác định
 P510	Massive umbilical hemorrhage of newborn	Chảy máu rốn nặng của trẻ sơ sinh
@@ -4114,7 +4127,7 @@ P703	Iatrogenic neonatal hypoglycemia	Hạ đường huyết sơ sinh do thầy 
 P704	Other neonatal hypoglycemia	Hạ đường huyết sơ sinh khác
 P708	Other transitory disorders of carbohydrate metabolism of newborn	Rối loạn tạm thời khác của chuyển hoá hydrat cacbon ở thai và trẻ sơ sinh
 P709	Transitory disorder of carbohydrate metabolism of newborn, unspecified	Rối loạn tạm thời không đặc hiệu của chuyển hoá cacbon hydrat ở thai và trẻ sơ sinh
-P710	Cow's milk hypocalcemia in newborn	Hạ calci máu khi dùng sữa bò của trẻ sơ sinh
+P710	'Cow''s milk hypocalcemia in newborn'	Hạ calci máu khi dùng sữa bò của trẻ sơ sinh
 P711	Other neonatal hypocalcemia	Hạ calci máu khác của sơ sinh
 P712	Neonatal hypomagnesemia	Hạ magnesi máu của trẻ sơ sinh
 P713	Neonatal tetany without calcium or magnesium deficiency	Tetany sơ sinh không do thiếu calci và magie
@@ -4313,7 +4326,7 @@ Q221	Congenital pulmonary valve stenosis	Hẹp van động mạch phổi bẩm s
 Q222	Congenital pulmonary valve insufficiency	Hở van động mạch phổi bẩm sinh
 Q223	Other congenital malformations of pulmonary valve	Các dị tật bẩm sinh khác của van động mạch phổi
 Q224	Congenital tricuspid stenosis	Hẹp van ba lá bẩm sinh
-Q225	Ebstein's anomaly	Dị tật Ebstein
+Q225	'Ebstein''s anomaly'	Dị tật Ebstein
 Q226	Hypoplastic right heart syndrome	Hội chứng tim phải thiểu sản
 Q228	Other congenital malformations of tricuspid valve	Các dị tật bẩm sinh khác của van ba lá
 Q229	Congenital malformation of tricuspid valve, unspecified	Dị tật bẩm sinh van ba lá, không đặc hiệu
@@ -4445,8 +4458,8 @@ Q422	Congenital absence, atresia and stenosis of anus with fistula	Không có, t
 Q423	Congenital absence, atresia and stenosis of anus without fistula	Không có, teo và hẹp bẩm sinh hậu môn không có đường rò
 Q428	Congenital absence, atresia and stenosis of other parts of large intestine	Không có, teo và hẹp bẩm sinh các phần khác của đại tràng
 Q429	Congenital absence, atresia and stenosis of large intestine, part unspecified	Không có, teo và hẹp bẩm sinh đại tràng, phần không xác định
-Q430	Meckel's diverticulum (displaced) (hypertrophic)	úi thừa Meckel
-Q431	Hirschsprung's disease	Bệnh Hirschsprung
+Q430	'Meckel''s diverticulum (displaced) (hypertrophic)'	úi thừa Meckel
+Q431	'Hirschsprung''s disease'	Bệnh Hirschsprung
 Q432	Other congenital functional disorders of colon	Rối loạn chức năng bẩm sinh khác của đại tràng
 Q433	Congenital malformations of intestinal fixation	Các dị tật cố định bẩm sinh ở ruột
 Q434	Duplication of intestine	Ruột đôi
@@ -4517,7 +4530,7 @@ Q602	Renal agenesis, unspecified	Không có thận không đặc hiệu
 Q603	Renal hypoplasia, unilateral	Giảm sản thận một bên
 Q604	Renal hypoplasia, bilateral	Giảm sản thận hai bên
 Q605	Renal hypoplasia, unspecified	Giảm sản thận không đặc hiệu
-Q606	Potter's syndrome	Hội chứng Potter
+Q606	'Potter''s syndrome'	Hội chứng Potter
 Q612	Polycystic kidney, adult type	Bệnh thận đa nang, di truyền trội trên nhiễm sắc thể thường
 Q613	Polycystic kidney, unspecified	hận đa nang không đặc hiệu
 Q614	Renal dysplasia	Loạn sản thận
@@ -4717,8 +4730,8 @@ Q961	Karyotype 46, X iso (Xq)	Kiểu nhiễm sắc thể 46, X iso (Xq)
 Q962	Karyotype 46, X with abnormal sex chromosome, except iso (Xq)	Kiểu nhiễm sắc thể 46, X với nhiễm sắc thể giới tính bất thường, trừ iso (Xq)
 Q963	Mosaicism, 45, X/46, XX or XY	Thể khảm, 45, X/ 46, XX hay XY
 Q964	Mosaicism, 45, X/other cell line(s) with abnormal sex chromosome	Thể khảm, 45, X/ dòng tế bào khác có nhiễm sắc thể giới tính bất thường
-Q968	Other variants of Turner's syndrome	Các dạng khác của hội chứng Turner
-Q969	Turner's syndrome, unspecified	Hội chứng Turner, không đặc hiệu
+Q968	'Other variants of Turner''s syndrome'	Các dạng khác của hội chứng Turner
+Q969	'Turner''s syndrome, unspecified'	Hội chứng Turner, không đặc hiệu
 Q970	Karyotype 47, XXX	Kiểu nhiễm sắc thể 47, XXX
 Q971	Female with more than three X chromosomes	Nữ có hơn 3 nhiễm sắc thể X
 Q972	Mosaicism, lines with various numbers of X chromosomes	Thể khảm, dòng có nhiễm sắc thể X khác nhau
@@ -4791,6 +4804,7 @@ R159	Full incontinence of feces	Không kiểm soát được phân
 R160	Hepatomegaly, not elsewhere classified	Gan to, không phân loại nơi khác
 R161	Splenomegaly, not elsewhere classified	Lách to, không phân loại nơi khác
 R162	Hepatomegaly with splenomegaly, not elsewhere classified	Gan to kèm lách to, không phân loại nơi khác
+R170	Hyperbilirubinaemia with mention of jaundice, not elsewhere classified	Tăng bilirubin huyết có đề cập đến vàng da, không phân loại nơi khác
 R180	Malignant ascites	Bán phân ác tính
 R188	Other ascites	Bán phân khác
 R192	Visible peristalsis	Nhu động ruột có thể nhìn được
@@ -5054,9 +5068,11 @@ T300	Burn of unspecified body region, unspecified degree	Bỏng ở vùng cơ th
 T304	Corrosion of unspecified body region, unspecified degree	Ăn mòn ở vùng cơ thể không xác định, mức độ không xác định
 T310	Burns involving less than 10% of body surface	Bỏng liên quan đến ít hơn 10% bề mặt cơ thể
 T320	Corrosions involving less than 10% of body surface	Ăn mòn liên quan đến ít hơn 10% bề mặt cơ thể
+T784	Allergy, unspecified	Dị ứng không xác định
 T865	Complications of stem cell transplant	Biến chứng của ghép tế bào gốc
 T872	Complications of other reattached body part	Biến chứng nối lại phần của cơ thể
 T879	Unspecified complications of amputation stump	Biến chứng không xác định của cắt cụt chi
+T887	Unspecified adverse effect of drug or medicament	Tác dụng phụ không xác định của thuốc hoặc dược phẩm
 U070	Vaping-related disorder	Rối loạn liên quan sử dụng thuốc lá điện tử
 U071	COVID-19	COVID- 19, xác định có vi rút
 U099	Post COVID-19 condition, unspecified	Bệnh lý sau khỏi COVID- 19, không xác định

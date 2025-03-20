@@ -43,7 +43,7 @@ BEGIN
 			TRIM(disease) AS disease,
 			UPPER(TRIM(REPLACE(icd_code, '_', '.'))) AS icd_code,
 			UPPER(SUBSTRING(TRIM(icd_code), 1, 3)) AS category,
-			TRIM(description) AS description
+			TRIM(REPLACE(description, CHAR(160), '')) AS description
 		FROM bronze.kg_disease_description
 
 		SET @end_time = GETDATE();
@@ -59,8 +59,11 @@ BEGIN
 		INSERT INTO silver.kg_symptom
 			(english_name, vietnamese_name, symptom_severity)
 		SELECT
-			TRIM(english_name) AS english_name,
-			TRIM(vietnamese_name) AS vietnamese_name,
+			CONCAT(
+				UPPER(LEFT(TRIM(english_name), 1)),
+				LOWER(SUBSTRING(REPLACE(TRIM(english_name), '_', ' '), 2, LEN(TRIM(english_name))))
+			) AS english_name,
+			TRIM(REPLACE(vietnamese_name, CHAR(160), '')) AS vietnamese_name,
 			CASE
 				WHEN symptom_severity < 1 THEN 1
 				ELSE symptom_severity
@@ -111,7 +114,7 @@ BEGIN
 			WHILE @@FETCH_STATUS = 0
 			BEGIN
 				DECLARE @symptom_id INT;
-				SELECT @symptom_id = symptom_id FROM silver.kg_symptom WHERE english_name = @symptom;
+				SELECT @symptom_id = symptom_id FROM silver.kg_symptom WHERE english_name = REPLACE(@symptom, '_', ' ');
 
 				INSERT INTO silver.kg_diagnosis_symptoms (diagnosis_id, symptom_id)
 				VALUES (@inserted_diagnosis_id, @symptom_id);
@@ -149,7 +152,7 @@ BEGIN
 			(category_key, category_name)
 		SELECT
 			UPPER(TRIM(category_key)) AS category_key,
-			TRIM(category_name) AS category_name
+			TRIM(REPLACE(category_name, CHAR(160), '')) AS category_name
 		FROM bronze.ccms_disease_category
 
 		SET @end_time = GETDATE();
@@ -170,7 +173,7 @@ BEGIN
 				ELSE UPPER(CONCAT(SUBSTRING(code, 1, 3), '.', SUBSTRING(code, 4, LEN(code) - 3)))
 			END AS code,
 			TRIM(english_name) AS english_name,
-			TRIM(vietnamese_name) AS vietnamese_name
+			TRIM(REPLACE(vietnamese_name, CHAR(160), '')) AS vietnamese_name
 		FROM bronze.ccms_disease_icd_10
 
 		SET @end_time = GETDATE();
