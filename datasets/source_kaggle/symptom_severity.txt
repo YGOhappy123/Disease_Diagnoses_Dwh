@@ -1,0 +1,135 @@
+english_name	vietnamese_name	symptom_severity
+abdominal_pain	Đau bụng	4
+abnormal_menstruation	Rối loạn kinh nguyệt	6
+acidity	Chứng axit dạ dày	3
+acute_liver_failure	Suy gan cấp tính	6
+altered_sensorium	Thay đổi nhận thức	2
+anxiety	Lo lắng	4
+back_pain	Đau lưng	3
+belly_pain	Đau bụng	4
+blackheads	Mụn đầu đen	2
+bladder_discomfort	Khó chịu bàng quang	4
+blister	Mụn nước	4
+blood_in_sputum	Máu trong đờm	5
+bloody_stool	Phân có máu	5
+blurred_and_distorted_vision	Nhìn mờ và méo mó	5
+breathlessness	Khó thở	4
+brittle_nails	Móng tay giòn	5
+bruising	Bầm tím	4
+burning_micturition	Tiểu buốt	6
+chest_pain	Đau ngực	7
+chills	Ớn lạnh	3
+cold_hands_and_feet	Tay chân lạnh	5
+coma	Hôn mê	7
+congestion	Ngạt mũi	5
+constipation	Táo bón	4
+continuous_feel_of_urine	Cảm giác buồn tiểu liên tục	6
+continuous_sneezing	Hắt hơi liên tục	4
+cough	Ho	4
+cramps	Chuột rút	4
+dark_urine	Nước tiểu sẫm màu	4
+dehydration	Mất nước	4
+depression	Trầm cảm	3
+diarrhoea	Tiêu chảy	6
+dischromic_patches	Mảng da đổi màu	6
+distention_of_abdomen	Chướng bụng	4
+dizziness	Chóng mặt	4
+drying_and_tingling_lips	Môi khô và ngứa ran	4
+enlarged_thyroid	Tuyến giáp to	6
+excessive_hunger	Thèm ăn quá mức	4
+extra_marital_contacts	Quan hệ ngoài hôn nhân	5
+family_history	Tiền sử gia đình	5
+fast_heart_rate	Nhịp tim nhanh	5
+fatigue	Mệt mỏi	4
+fluid_overload	Tích tụ dịch	6
+fluid_overload	Tích tụ dịch	4
+foul_smell_of urine	Nước tiểu có mùi hôi	5
+headache	Đau đầu	3
+high_fever	Sốt cao	7
+hip_joint_pain	Đau khớp háng	2
+history_of_alcohol_consumption	Tiền sử uống rượu	5
+increased_appetite	Tăng cảm giác thèm ăn	5
+indigestion	Khó tiêu	5
+inflammatory_nails	Móng tay viêm	2
+internal_itching	Ngứa bên trong	4
+irregular_sugar_level	Mức đường huyết không đều	5
+irritability	Dễ cáu gắt	2
+irritation_in_anus	Ngứa hậu môn	6
+itching	Ngứa	1
+joint_pain	Đau khớp	3
+knee_pain	Đau đầu gối	3
+lack_of_concentration	Thiếu tập trung	3
+lethargy	Uể oải	2
+loss_of_appetite	Chán ăn	4
+loss_of_balance	Mất thăng bằng	4
+loss_of_smell	Mất khứu giác	3
+loss_of_taste	Mất vị giác	5
+malaise	Khó chịu toàn thân	6
+mild_fever	Sốt nhẹ	5
+mood_swings	Tâm trạng thất thường	3
+movement_stiffness	Cứng cử động	5
+mucoid_sputum	Đờm nhầy	4
+muscle_pain	Đau cơ	2
+muscle_wasting	Teo cơ	3
+muscle_weakness	Yếu cơ	2
+nausea	Buồn nôn	5
+neck_pain	Đau cổ	5
+nodal_skin_eruptions	Nốt sẩn trên da	4
+obesity	Béo phì	4
+pain_behind_the_eyes	Đau sau mắt	4
+pain_during_bowel_movements	Đau khi đi đại tiện	5
+pain_in_anal_region	Đau vùng hậu môn	6
+painful_walking	Đi lại đau đớn	2
+palpitations	Hồi hộp đánh trống ngực	4
+passage_of_gases	Đầy hơi	5
+patches_in_throat	Mảng trắng trong họng	6
+phlegm	Đờm	5
+polyuria	Tiểu nhiều	4
+prominent_veins_on_calf	Tĩnh mạch nổi rõ ở bắp chân	6
+puffy_face_and_eyes	Mặt và mắt sưng	5
+pus_filled_pimples	Mụn mủ	2
+receiving_blood_transfusion	Nhận truyền máu	5
+receiving_unsterile_injections	Tiêm không vô trùng	2
+red_sore_around_nose	Vết loét đỏ quanh mũi	2
+red_spots_over_body	Nốt đỏ trên cơ thể	3
+redness_of_eyes	Đỏ mắt	5
+restlessness	Bồn chồn	5
+runny_nose	Sổ mũi	5
+rusty_sputum	Đờm có màu gỉ sắt	4
+scurrying	Tất bật	2
+shivering	Run rẩy	5
+silver_like_dusting	Bong vảy bạc	2
+sinus_pressure	Áp lực xoang	4
+skin_peeling	Bong tróc da	3
+skin_rash	Phát ban	3
+slurred_speech	Nói lắp	4
+small_dents_in_nails	Lõm nhỏ trên móng tay	2
+spinning_movements	Chóng mặt quay cuồng	6
+spotting_urination	Tiểu lắt nhắt	6
+stiff_neck	Cổ cứng	4
+stomach_bleeding	Xuất huyết dạ dày	6
+stomach_pain	Đau dạ dày	5
+sunken_eyes	Mắt trũng sâu	3
+sweating	Ra mồ hôi	3
+swelled_lymph_nodes	Hạch bạch huyết sưng	6
+swelling_joints	Sưng khớp	5
+swelling_of_stomach	Bụng sưng	7
+swollen_blood_vessels	Mạch máu sưng	5
+swollen_extremities	Tay chân sưng	5
+swollen_legs	Chân sưng	5
+throat_irritation	Kích ứng họng	4
+tiredness	Mệt mỏi	5
+typhus	Biểu hiện nhiễm độc (sốt phát ban)	5
+ulcers_on_tongue	Loét trên lưỡi	4
+unsteadiness	Không vững khi đi lại	4
+visual_disturbances	Rối loạn thị giác	3
+vomiting	Nôn mửa	5
+watering_from_eyes	Chảy nước mắt	4
+weakness_in_limbs	Yếu tay chân	7
+weakness_of_one_body_side	Yếu một bên cơ thể	4
+weight_gain	Tăng cân	3
+weight_loss	Sụt cân	3
+yellow_crust_ooze	Vảy màu vàng chảy dịch	3
+yellow_urine	Nước tiểu vàng	4
+yellowing_of_eyes	Vàng mắt	4
+yellowish_skin	Vàng da	3
