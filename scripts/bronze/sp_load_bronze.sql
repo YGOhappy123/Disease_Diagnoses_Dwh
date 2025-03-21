@@ -13,6 +13,9 @@ Parameters:
 
 Example Usage:
     EXEC bronze.sp_load_bronze;
+
+NOTE:
+	You have to manually provide the paths to your data files base on your local machines.
 ===============================================================================
 */
 
