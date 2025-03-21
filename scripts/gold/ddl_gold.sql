@@ -53,11 +53,11 @@ SELECT
 FROM silver.kg_symptom AS st
 GO
 
-IF OBJECT_ID('gold.fact_most_likely_diseases_base_on_symptoms', 'V') IS NOT NULL
-    DROP VIEW gold.fact_most_likely_diseases_base_on_symptoms;
+IF OBJECT_ID('gold.fact_likely_diseases_base_on_symptoms', 'V') IS NOT NULL
+    DROP VIEW gold.fact_likely_diseases_base_on_symptoms;
 GO
 
-CREATE VIEW gold.fact_most_likely_diseases_base_on_symptoms AS
+CREATE VIEW gold.fact_likely_diseases_base_on_symptoms AS
 WITH symptom_occurrences AS (
     SELECT 
         symptom_id, 
@@ -80,18 +80,22 @@ SELECT
 	COALESCE(di.vietnamese_name, N'(Không có thông tin)')	AS N'Tên bệnh',
 	so.occurrence											AS N'Số lần triệu chứng được ghi nhận',
 	ddc.diagnosis_cases										AS N'Số lần bệnh được chẩn đoán',
-	FORMAT(1.0 * ddc.diagnosis_cases / so.occurrence, 'P2')	AS N'Tỉ lệ mắc bệnh khi có triệu chứng này'
+	CAST(
+		(100.0 * ddc.diagnosis_cases / so.occurrence)
+		AS DECIMAL(10,2)
+	)														AS N'Tỉ lệ % mắc bệnh khi có triệu chứng này'
 FROM disease_diagnosis_cases ddc
 INNER JOIN symptom_occurrences so ON ddc.symptom_id = so.symptom_id
 INNER JOIN silver.kg_disease d ON ddc.disease_id = d.disease_id
 INNER JOIN silver.kg_symptom s ON ddc.symptom_id = s.symptom_id
 LEFT JOIN silver.ccms_disease_icd_10 di ON d.icd_code = di.code;
-
-IF OBJECT_ID('gold.fact_most_common_symptoms_of_diseases', 'V') IS NOT NULL
-    DROP VIEW gold.fact_most_common_symptoms_of_diseases;
 GO
 
-CREATE VIEW gold.fact_most_common_symptoms_of_diseases AS
+IF OBJECT_ID('gold.fact_common_symptoms_of_diseases', 'V') IS NOT NULL
+    DROP VIEW gold.fact_common_symptoms_of_diseases;
+GO
+
+CREATE VIEW gold.fact_common_symptoms_of_diseases AS
 WITH disease_total_cases AS (
     SELECT 
         disease_id, 
@@ -114,9 +118,13 @@ SELECT
 	s.vietnamese_name										AS N'Tên triệu chứng',
 	dtc.total_cases											AS N'Số lần bệnh được chẩn đoán',
 	sdo.occurrence											AS N'Số lần xuất hiện triệu chứng',
-	FORMAT(1.0 * sdo.occurrence / dtc.total_cases, 'P2')	AS N'Tỉ lệ xuất hiện triệu chứng'
+	CAST(
+		(100.0 * sdo.occurrence / dtc.total_cases)
+		AS DECIMAL(10,2)
+	)														AS N'Tỉ lệ % xuất hiện triệu chứng'
 FROM symptom_diagnosis_occurrences sdo
 INNER JOIN disease_total_cases dtc ON sdo.disease_id = dtc.disease_id
 INNER JOIN silver.kg_disease d ON sdo.disease_id = d.disease_id
 INNER JOIN silver.kg_symptom s ON sdo.symptom_id = s.symptom_id
 LEFT JOIN silver.ccms_disease_icd_10 di ON d.icd_code = di.code;
+GO
