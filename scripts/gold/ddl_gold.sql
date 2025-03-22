@@ -18,23 +18,23 @@ GO
 
 CREATE VIEW gold.dim_common_diseases AS
 SELECT
-	ROW_NUMBER() OVER (ORDER BY disease_id)	AS N'Khóa bệnh',
-	kd.icd_code								AS N'Mã bệnh theo ICD',
+	kd.disease_id					AS N'Mã bệnh',
+	kd.icd_code						AS N'Mã bệnh theo ICD',
 	COALESCE(
 		di.english_name,	
 		N'(Không có thông tin)'
-	)										AS N'Tên bệnh quốc tế',
+	)								AS N'Tên bệnh quốc tế',
 	COALESCE(
 		di.vietnamese_name,	
 		N'(Không có thông tin)'						
-	)										AS N'Tên bệnh tiếng Việt',
-	kd.description							AS N'Mô tả bệnh',
-	kd.category								AS N'Mã phân loại',
+	)								AS N'Tên bệnh tiếng Việt',
+	kd.description					AS N'Mô tả bệnh',
+	kd.category						AS N'Mã phân loại',
 	COALESCE(
 		dc.category_name,
 		di.vietnamese_name,
 		N'(Không có thông tin)'
-	)										AS N'Phân loại'
+	)								AS N'Phân loại'
 FROM silver.kg_disease AS kd
 LEFT JOIN silver.ccms_disease_category dc ON kd.category = dc.category_key
 LEFT JOIN silver.ccms_disease_icd_10 di ON kd.icd_code = di.code
@@ -46,10 +46,10 @@ GO
 
 CREATE VIEW gold.dim_common_symptoms AS
 SELECT
-	ROW_NUMBER() OVER (ORDER BY symptom_id)	AS N'Khóa triệu chứng',
-	st.english_name							AS N'Tên triệu chứng tiếng Anh',
-	st.vietnamese_name						AS N'Tên triệu chứng tiếng Việt',
-	st.symptom_severity						AS N'Mức độ nghiêm trọng'
+	st.symptom_id					AS N'Mã triệu chứng',
+	st.english_name					AS N'Tên triệu chứng tiếng Anh',
+	st.vietnamese_name				AS N'Tên triệu chứng tiếng Việt',
+	st.symptom_severity				AS N'Mức độ nghiêm trọng'
 FROM silver.kg_symptom AS st
 GO
 
@@ -75,20 +75,19 @@ disease_diagnosis_cases AS (
 	GROUP BY d.disease_id, ds.symptom_id
 )
 SELECT
-	s.vietnamese_name										AS N'Tên triệu chứng',
-	d.icd_code												AS N'Mã bệnh theo ICD',
-	COALESCE(di.vietnamese_name, N'(Không có thông tin)')	AS N'Tên bệnh',
-	so.occurrence											AS N'Số lần triệu chứng được ghi nhận',
-	ddc.diagnosis_cases										AS N'Số lần bệnh được chẩn đoán',
+	s.[Tên triệu chứng tiếng Việt]					AS N'Tên triệu chứng',
+	d.[Mã bệnh theo ICD]							AS N'Mã bệnh theo ICD',
+	d.[Tên bệnh tiếng Việt]							AS N'Tên bệnh',
+	so.occurrence									AS N'Số lần triệu chứng được ghi nhận',
+	ddc.diagnosis_cases								AS N'Số lần bệnh được chẩn đoán',
 	CAST(
 		(100.0 * ddc.diagnosis_cases / so.occurrence)
 		AS DECIMAL(10,2)
-	)														AS N'Tỉ lệ % mắc bệnh khi có triệu chứng này'
+	)												AS N'Tỉ lệ (%) mắc bệnh khi có triệu chứng này'
 FROM disease_diagnosis_cases ddc
 INNER JOIN symptom_occurrences so ON ddc.symptom_id = so.symptom_id
-INNER JOIN silver.kg_disease d ON ddc.disease_id = d.disease_id
-INNER JOIN silver.kg_symptom s ON ddc.symptom_id = s.symptom_id
-LEFT JOIN silver.ccms_disease_icd_10 di ON d.icd_code = di.code;
+INNER JOIN gold.dim_common_diseases d ON ddc.disease_id = d.[Mã bệnh]
+INNER JOIN gold.dim_common_symptoms s ON ddc.symptom_id = s.[Mã triệu chứng];
 GO
 
 IF OBJECT_ID('gold.fact_common_symptoms_of_diseases', 'V') IS NOT NULL
@@ -113,18 +112,17 @@ symptom_diagnosis_occurrences AS (
 	GROUP BY d.disease_id, ds.symptom_id
 )
 SELECT
-	d.icd_code												AS N'Mã bệnh theo ICD',
-	COALESCE(di.vietnamese_name, N'(Không có thông tin)')	AS N'Tên bệnh',
-	s.vietnamese_name										AS N'Tên triệu chứng',
-	dtc.total_cases											AS N'Số lần bệnh được chẩn đoán',
-	sdo.occurrence											AS N'Số lần xuất hiện triệu chứng',
+	d.[Mã bệnh theo ICD]							AS N'Mã bệnh theo ICD',
+	d.[Tên bệnh tiếng Việt]							AS N'Tên bệnh',
+	s.[Tên triệu chứng tiếng Việt]					AS N'Tên triệu chứng',
+	dtc.total_cases									AS N'Số lần bệnh được chẩn đoán',
+	sdo.occurrence									AS N'Số lần xuất hiện triệu chứng',
 	CAST(
 		(100.0 * sdo.occurrence / dtc.total_cases)
 		AS DECIMAL(10,2)
-	)														AS N'Tỉ lệ % xuất hiện triệu chứng'
+	)												AS N'Tỉ lệ (%) xuất hiện triệu chứng'
 FROM symptom_diagnosis_occurrences sdo
 INNER JOIN disease_total_cases dtc ON sdo.disease_id = dtc.disease_id
-INNER JOIN silver.kg_disease d ON sdo.disease_id = d.disease_id
-INNER JOIN silver.kg_symptom s ON sdo.symptom_id = s.symptom_id
-LEFT JOIN silver.ccms_disease_icd_10 di ON d.icd_code = di.code;
+INNER JOIN gold.dim_common_diseases d ON sdo.disease_id = d.[Mã bệnh]
+INNER JOIN gold.dim_common_symptoms s ON sdo.symptom_id = s.[Mã triệu chứng];
 GO
