@@ -42,7 +42,7 @@ BEGIN
 		SELECT 
 			TRIM(disease) AS disease,
 			UPPER(TRIM(REPLACE(icd_code, '_', '.'))) AS icd_code,
-			UPPER(SUBSTRING(TRIM(icd_code), 1, 3)) AS category,
+			UPPER(LEFT(TRIM(icd_code), 3)) AS category,
 			TRIM(REPLACE(description, CHAR(160), '')) AS description
 		FROM bronze.kg_disease_description
 
@@ -61,7 +61,7 @@ BEGIN
 		SELECT
 			CONCAT(
 				UPPER(LEFT(TRIM(english_name), 1)),
-				LOWER(SUBSTRING(REPLACE(TRIM(english_name), '_', ' '), 2, LEN(TRIM(english_name))))
+				LOWER(SUBSTRING(REPLACE(TRIM(english_name), '_', ' '), 2, LEN(TRIM(english_name)) - 1))
 			) AS english_name,
 			TRIM(REPLACE(vietnamese_name, CHAR(160), '')) AS vietnamese_name,
 			CASE
@@ -169,8 +169,8 @@ BEGIN
 			(code, english_name, vietnamese_name)
 		SELECT
 			CASE
-				WHEN LEN(code) <= 3 THEN UPPER(TRIM(code))
-				ELSE UPPER(CONCAT(SUBSTRING(code, 1, 3), '.', SUBSTRING(code, 4, LEN(code) - 3)))
+				WHEN LEN(TRIM(code)) <= 3 THEN UPPER(TRIM(code))
+				ELSE UPPER(CONCAT(LEFT(TRIM(code), 3), '.', SUBSTRING(TRIM(code), 4, LEN(TRIM(code)) - 3)))
 			END AS code,
 			TRIM(english_name) AS english_name,
 			TRIM(REPLACE(vietnamese_name, CHAR(160), '')) AS vietnamese_name
